@@ -50,7 +50,7 @@ export function Flashcard({ frontContent, backImage }: FlashcardProps) {
         >
           <div className="text-center relative z-10">
             <div className="text-xl md:text-2xl font-bold text-pink-800 mb-3 leading-relaxed">{frontContent}</div>
-            <p className="text-sm text-pink-700 mt-2 font-medium">点击查看照片</p>
+            <p className="text-sm text-pink-700 mt-2 font-medium">點擊查看照片</p>
 
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-10">
               <Heart className="w-40 h-40 text-pink-400" fill="#FBCFE8" />

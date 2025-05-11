@@ -10,7 +10,7 @@ export default function Home() {
   const [isMuted, setIsMuted] = useState(false)
   const [displayText, setDisplayText] = useState("")
   const [typingComplete, setTypingComplete] = useState(false)
-  const fullText = "母亲节快乐！"
+  const fullText = "母親節快樂！"
   const audioRef = useRef<HTMLAudioElement>(null)
 
   useEffect(() => {
@@ -48,22 +48,22 @@ export default function Home() {
 
   // Images for the flashcards - using the uploaded photos
   const images = [
-    "/images/mom1.png",
-    "/images/mom2.png",
-    "/images/mom3.png",
-    "/images/mom4.png",
-    "/images/mom5.png",
-    "/images/mom6.png",
+    "/images/mom1.jpg",
+    "/images/mom2.jpg",
+    "/images/mom3.jpg",
+    "/images/mom4.jpg",
+    "/images/mom5.jpg",
+    "/images/mom6.jpg",
   ]
 
   // Card titles - updated to use the Chinese phrases provided
   const cardTitles = [
-    "多么温馨的目光",
-    "永远在背后带出温暖",
-    "在春风化雨的时候暖透我的心",
-    "一生眷顾无言地送赠",
-    "教我坚毅望著前路",
-    "教我跌倒不应放弃",
+    "多麼溫馨的目光",
+    "永遠在背後帶出溫暖",
+    "在春風化雨的時候暖透我的心",
+    "一生眷顧無言地送贈",
+    "教我堅毅望著前路",
+    "教我跌倒不應放棄",
   ]
 
   return (
@@ -111,7 +111,7 @@ export default function Home() {
             <p
               className={`mt-4 text-pink-700 text-lg max-w-2xl mx-auto transition-opacity duration-1000 ${typingComplete ? "opacity-100" : "opacity-0"}`}
             >
-              Thank you 阿妈！
+              Thank you 阿媽！
             </p>
           </div>
         </div>
