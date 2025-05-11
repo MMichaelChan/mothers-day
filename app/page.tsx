@@ -48,11 +48,11 @@ export default function Home() {
 
   // Images for the flashcards - using the uploaded photos
   const images = [
-    "/images/mom1.jpg",
-    "/images/mom2.jpg",
-    "/images/mom3.jpg",
+    "/images/mom1.png",
+    "/images/mom2.png",
+    "/images/mom3.png",
     "/images/mom4.jpg",
-    "/images/mom5.jpg",
+    "/images/mom5.png",
     "/images/mom6.jpg",
   ]
 
