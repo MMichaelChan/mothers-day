@@ -111,7 +111,7 @@ export default function Home() {
             <p
               className={`mt-4 text-pink-700 text-lg max-w-2xl mx-auto transition-opacity duration-1000 ${typingComplete ? "opacity-100" : "opacity-0"}`}
             >
-              感谢母亲多年来的爱与关怀
+              Thank you 阿妈！
             </p>
           </div>
         </div>
